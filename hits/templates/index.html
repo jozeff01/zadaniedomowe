@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Radiostation API</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background: #f4f4f4;
+            padding: 2rem;
+        }
+        h1 {
+            color: #333;
+        }
+        code {
+            background: #eee;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎵 Radiostation API</h1>
+    <p>Witamy w REST API stacji radiowej. Dostępne endpointy:</p>
+    <ul>
+        <li><code>GET /api/v1/hits</code> – lista hitów</li>
+        <li><code>GET /api/v1/hits/&lt;title_url&gt;</code> – szczegóły konkretnego hitu</li>
+        <li><code>POST /api/v1/hits</code> – utwórz hit</li>
+        <li><code>PUT /api/v1/hits/&lt;title_url&gt;</code> – zaktualizuj hit</li>
+        <li><code>DELETE /api/v1/hits/&lt;title_url&gt;</code> – usuń hit</li>
+    </ul>
+</body>
+</html>
